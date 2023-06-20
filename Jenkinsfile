@@ -6,7 +6,7 @@ maven 'maven'
 stages {
 stage ('compilation process') {
 steps {
-sh "mvn comiple"
+sh "mvn compile"
 }
 }
 stage ('Testing') {
